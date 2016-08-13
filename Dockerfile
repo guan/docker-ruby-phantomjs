@@ -103,5 +103,5 @@ RUN apk update && \
     mkdir -p /usr/src/app
 
 RUN apk-install curl \
-        && curl -Ls  https://github.com/fatore/docker-phantomjs2/archive/master.zip \
+        && curl -Ls  https://github.com/fatore/docker-phantomjs2/archive/master.tar.gz \
         | tar xz -C /
