@@ -103,5 +103,5 @@ RUN apk update && \
     mkdir -p /usr/src/app
 
 RUN apk-install curl \
-    && curl -Ls https://github.com/fgrehm/docker-phantomjs2/releases/download/v2.0.0-20150722/dockerized-phantomjs.tar.gz \
-       | tar xz -C /
+        && curl -Ls  https://github.com/fatore/docker-phantomjs2/archive/master.zip \
+        | tar xz -C /
